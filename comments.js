@@ -11,7 +11,7 @@ router.post('/create', commentController.create);
 
 // router for deleting comment
 router.get('/destroy/:id', commentController.destroy);
-
+  
 // export router
 module.exports = router;
 
